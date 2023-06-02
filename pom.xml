@@ -135,6 +135,14 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+            		<mainClass>com.trybe.acc.java.calculadora.CalculadoraApplication</mainClass>
+            		<layout>JAR</layout>
+        		</configuration>
+			</plugin>
 
 		</plugins>
 
